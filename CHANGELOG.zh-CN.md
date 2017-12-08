@@ -15,6 +15,19 @@ timeline: true
 
 ---
 
+## 3.0.1
+
+`2017-12-08`
+
+* 移除 Card 无用 DOM wrapper，以和 2.x 保持一致。
+* 修复 AutoComplete 的 TypeScript 定义。[#8383](https://github.com/ant-design/ant-design/pull/8383) [@nidhi-ag](https://github.com/nidhi-ag)
+* 修复 Divider 的 TypeScript 定义。[#8504](https://github.com/ant-design/ant-design/pull/8504) [@cyyyu](https://github.com/cyyyu)
+* 修复 Dropdown 的 TypeScript 定义。[#8444](https://github.com/ant-design/ant-design/issues/8444)
+* 修复 List 的 TypeScript 定义。[e27061e](https://github.com/ant-design/ant-design/commit/e27061ea5b2f2d3273b45862d9b87285448f0998) [1b2a955](https://github.com/ant-design/ant-design/commit/1b2a9550d9595dd2f31f79d1bdd52695ec792692)
+* 修复 Menu 弹层在 Safari 下消失的问题。[#8453](https://github.com/ant-design/ant-design/issues/8453)
+* 修复 Notification 样式编译错误。[#8437](https://github.com/ant-design/ant-design/issues/8437)
+* 修复 Table 在移动端样式错乱的问题。[#8465](https://github.com/ant-design/ant-design/issues/8465)
+
 ## 3.0.0
 
 `2017-12-04`
